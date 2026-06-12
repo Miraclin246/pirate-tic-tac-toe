@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pirate Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>☠️ Pirate Tic Tac Toe ☠️</h1>
+
+  <div id="game-container">
+    <!-- Cat X on the left -->
+    <img id="cat-x" src="images/catX_normal.png" alt="Cat X">
+
+    <!-- Game board -->
+    <div id="game-board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <!-- Cat O on the right -->
+    <img id="cat-o" src="images/catO_normal.png" alt="Cat O">
+  </div>
+
+  <p id="status">Player X’s turn, matey!</p>
+  <button id="restart">🔄 Hoist the Sails Again!</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
